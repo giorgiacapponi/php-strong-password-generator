@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.wrapper{
+    background-color: #001632;
+    height: 100vh;
+    width: 100%;
+    padding: 4rem 0;
+    /* text-align: center; */
+}
+h1{
+    color: #cff4fc;
+    text-align: center;
+}
+h2{
+    color: white;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.container{
+    width: 50%;
+    margin: 0 auto;
+    background-color: white;
+   padding: 1rem;
+}
+
+label[for=password-length], span{
+    display: inline-block;
+    width:60%;
+}
+#password-length{
+    height: 2rem;
+}
+.preference{
+    display: flex;
+    margin-top: 1rem;
+}
+.left-side{
+    width: 60%;
+}
+#letters{
+    margin-top: 2rem;
+}
+button{
+    height: 2rem;
+    padding: .3rem .7rem;
+    border-style: none;
+    border-radius: 10%;
+    color: white;
+    margin-top: 2rem;
+   
+
+}
+button[type=submit]{
+    background-color: #0c6dfc;
+    ;
+}
+button[type=reset]{
+    background-color: #6b747c;
+}
